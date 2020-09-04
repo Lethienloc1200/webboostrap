@@ -1,0 +1,37 @@
+
+*{
+	margin: 0;
+	padding:0;
+}
+.tren{
+	position: relative;
+	width: 360px;
+	height: 200px;
+
+}
+.tren .layer1{
+	/*anh*/
+	width: 360px;
+	height: 200px;
+
+}
+.tren .layer2{
+	background: green;
+	padding: 8px 8px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+.tren .layer3{
+	position: absolute;
+	bottom: -20px;
+	left: 10px;
+	z-index: 1;
+	display: block;/*=> phai de*/
+
+	width: 35px;
+	height: 35px;
+	background:white;
+	transform: rotate(45deg );
+}

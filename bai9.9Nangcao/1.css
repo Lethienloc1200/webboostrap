@@ -1,0 +1,87 @@
+*{margin: 0; padding: 0;} 
+
+
+/*.ngoai{
+	background-color: #3a11e34a;
+}*/
+.top{
+	background-image: url(images/1.jpg);
+	background-size: cover;
+	height: 700px;
+	
+
+}
+.menutren{
+	background-color: transparent;
+
+}
+.logo{
+	background-color: orange;
+	padding:20px 10px;
+	position: relative; /*lam father de top len 7px*/
+	top: -8px;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+	font-weight: bold;
+
+}
+.top .menuphai a.nav-link{
+	text-transform: uppercase; /*viet hoa*/
+	margin: 23px 10px;
+	font-weight: bold;
+	transition: 0.5s;
+	
+}
+.top .menuphai a.nav-link:hover{
+	color:orange;
+}
+/*csscho banner*/
+.banner h1{
+	color: white;
+	padding-top: 250px;
+}
+.banner p{
+	color: gray;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 48px;
+
+}
+.banner a{
+	font-size: 19px;
+	font-weight: bold;
+	padding:10px 25px;
+}
+.logo{
+	transition: 0.5s; 
+}
+.logo.chucam{
+	background-color: white;
+	color: orange;
+}
+@media(max-width: 576px){
+	*{} /*để sửa trong chome cho nhanh*/
+	.banner h1{
+		padding-top: 125px;
+		font-size: 37px;
+	}
+	.top{
+		height:596px;
+	}
+	a.logo{
+		width: 150px;
+		left: 50%;
+		margin-left: -75px;
+		text-align: center;
+	}
+	.menuphai{
+		background-color: #686262;
+		width: 100%;
+		padding: 15px;
+		text-align: center;
+
+	}
+	.top .menuphai a.nav-link{
+		padding: 10px;
+	}
+}

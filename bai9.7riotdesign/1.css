@@ -1,0 +1,123 @@
+*{margin: 0; padding: 0;}
+
+.pt-3.text-muted.chunho a.tdfooter {
+    font-size: 13px;
+    margin-top: 9px;
+    display: block;
+}
+
+.text-muted.chunho p {
+    font-size: 12px;
+}
+
+.phantext h4 {
+    padding-top: 20px;
+}
+
+.phananh img.img-fluid {
+    padding-right: 10px;
+}
+
+.noidung {
+    background: #e9e9e9;
+}
+
+.kocokhoangtrong .media {
+    margin-right: 20px;
+    background: white;
+    height: 109px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 100px;
+}
+
+.texttieude small {
+    font-size: 17px;
+    padding-top: 4px;
+    display: block;
+    padding-bottom: 69px;
+}
+
+.texttieude h2.display-4 {
+    font-size: 34px;
+    padding-top: 90px;
+}
+
+a.btn.btn-outline-secondary.nutxem {
+    border: 2px solid white;
+    border-radius: 0px;
+}
+
+a.btn.btn-outline-secondary.nutxem:hover {
+    background-color: white;
+    color: #242745;
+}
+
+.menutop a.navbar-brand {
+    padding-top: 84px;
+}
+
+.navbar-light.menutop .navbar-nav a.nav-link {
+    color: #b3b3b3;
+    padding: 90px 15px 0 15px;
+    font-weight: 300;
+    font-family: 'Pridi', serif;
+    font-size: 18px;
+}
+
+.navbar-light.menutop .navbar-nav a.nav-link:hover {
+    color: white;
+}
+
+nav.navbar.navbar-light.bg-faded.menutop {
+    background-color: transparent;
+}
+
+img.logonho {
+    height: 37px;
+}
+
+img.logonho {
+} 
+.kocokhoangtrong [class*='col-']  {
+	padding-left: 0;padding-right: 0;
+} 
+
+
+
+
+
+@media (max-width: 575px){
+.navbar-light .navbar-toggler {
+     border-color:white;
+     background: none;
+     color: #e8e8e8;
+}
+.navbar-light .navbar-toggler:hover {
+     border-color:white;
+     background: none;
+     color: #ffffff;
+}
+	
+			.navbar-light.menutop .navbar-nav a.nav-link {
+			    color: #b3b3b3;
+			    padding: 10px 0px 0 0px;
+			    font-weight: 400;
+			    font-family: 'Pridi', serif;
+			    font-size: 18px;
+			    text-align: center;
+			}
+			    
+			img.logonho {
+			    height: 27px;
+			}
+
+
+			.menutop a.navbar-brand {
+			    padding-top: 0px;
+			}
+
+			    nav.navbar.navbar-light.bg-faded.menutop {
+			    background-color: #232a31;
+			   }
+}
+ 

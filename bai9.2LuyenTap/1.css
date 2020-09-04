@@ -1,0 +1,78 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+html,body{
+	width: 100%; /* cần phải có để full màn hinhf*/
+	height: 100%;
+	background-image: url(3.jpg);
+	background-size: cover;  /*full ảnh màn hình*/
+}
+.khoi{
+	height: 100%;
+	width: 20%;
+	position: relative;/* khối bố là relative*/
+	overflow: hidden;
+	float: left;
+}
+.khoi .black_background{
+	width: 100%;/* nền màu đen là con của bố nên độ rộng là 100%*/
+	height: 100%;
+	position: absolute;/* chia layer*/
+	z-index: 1;
+	top:0px;
+	left: 0px;
+	background-color:#0d0c0c8c;
+	opacity: 0;/*để khi hover chuột vào thì sẽ opasity 1*/
+	transition: 0.9s; /*chuyển động mượt mà*/
+}
+.khoi .chu{ /*awlay be a man*/
+	position: absolute;/* chia layer*/
+	z-index: 2;
+	top:50%; /*cho chữ chính giữa*/
+	left: 0px;
+	font-size: 19px;
+	width: 100%; /*phải 100% mới text align center được*/
+	text-align: center;
+	color: white;
+}
+.khoi .button{
+	position: absolute;
+	z-index: 3;
+	top:40%; /*để khi hover chuột vào sẽ di chuyển đế 60%*/
+	left: 50%; /*Căn giữa*/
+	/*display: inline-block;*/
+	background-color: red;
+	padding: 9px 16px;
+	border-radius: 20px;
+	width: 100px;
+	text-align: center;
+	margin-left: -63px;
+
+	opacity: 0;
+	transition: 0.9s;
+	}
+.khoi .text {
+	position: absolute;
+	z-index: 4;
+	bottom: -20px;
+	left: 0px;
+	
+	color: white;
+	text-align: center;
+	width: 100%;
+	opacity: 0;/* khi hover moi xuat hien*/
+	transition: 0.9s;
+
+}
+.khoi:hover .black_background{
+	opacity: 1;
+}
+.khoi:hover .button{
+	opacity: 1;
+	top:60%;
+}
+.khoi:hover .text {
+ 	opacity: 1;
+ 	bottom: 20px;
+}

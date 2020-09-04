@@ -1,0 +1,140 @@
+*{margin: 0; padding: 0;} 
+@font-face{
+	src:url(fonts/Lato-Regular.ttf);
+	font-family: lato-r;
+}
+@font-face{
+	src:url(fonts/Lato-Light.ttf);
+	font-family: lato-l;
+}
+@font-face{
+	src:url(fonts/Lato-Bold.ttf);
+	font-family: lato-b;
+}
+.topheader{
+	border-top: 5px solid #0787d4;
+	background-color: #21c2f8;
+	
+}
+.iconsocial a{
+	color: white;
+	display: inline-block;
+	padding: 0px 8px;
+	padding-top: 13px;
+}
+.nut .btn-outline-secondary,.nut .btn-secondary{
+	font-family: lato-b;
+	font-size: 14px;
+	color: white;
+	line-height: 19px;
+	padding: 8px 13px;
+	border-radius: 1px;
+	border:1px solid white;
+	margin: 10px 10px;
+}
+.nut .btn-secondary{
+	color: #a1b1bc;
+	font-family: lato-r;
+}
+/*css cho menu*/
+.mtrenphai li.nav-item a.nav-link{
+	font-family: lato-r;
+	font-size: 13px;
+	color: #2c3e50;
+	padding:40px 20px 45px 20px;
+	border-top: 5px solid transparent;
+	text-transform: uppercase;
+}
+
+.mtrenphai li.nav-item.active a.nav-link{
+ color: #1abc9c;
+ border-color: #1abc9c;
+}
+.mtrenphai li.nav-item.iconmenu a.nav-link {
+	color:#1abc9c;
+	font-size: 29px;
+	padding: 15px 11px;
+}
+.mtren1{
+	padding: 0;
+	margin: 0;
+}
+
+#slide1 {
+	height: 900px;
+	overflow: hidden; /*ẩn ảnh bị dư*/
+}
+
+#slide1 .carousel-item .carousel-caption{
+	bottom:60%;
+	text-align: left;
+}
+#slide1 h5{
+	font-size: 26px;
+	font-family: lato-r;
+	color: #604B4B;
+}
+#slide1 h3{
+	font-size: 50px;
+	font-family: lato-r;
+	color: #0A0909;
+}
+#slide1 ul.list{
+	list-style: none;
+}
+#slide1 ul.list li i{
+	font-size: 19px;
+	margin-right:20px; 
+	
+}
+
+.nutslide .carousel-control{
+	background-color: none;
+}
+.nutslide .carousel-control{
+	border:1px solid white;
+	width: 50px;
+	height: 50px;
+	top: 50%;
+	margin: 0px 100px;
+}
+/*viet css cho khoi gioi thieu	*/
+.khoigioithieu .cottrai{
+	color: #2c3e50;
+	font-family: lato-l;
+	font-size: 36px;
+	line-height: 50px;
+}
+.khoigioithieu .cottrai p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #a1b1bc;
+	font-family:lato-r;
+}
+.khoigioithieu .cotphai .panel-title a{
+	color: #2c3e50;
+	font-size: 15px;
+	border:1px solid gray; 
+	padding:17px 19px; 
+	line-height: 24px;
+	display: block;
+	
+}
+.khoigioithieu .cotphai .panel-collapse{
+	border: 1px solid gray;
+	padding: 20px 17px;
+}
+
+@media(max-width: 576px){
+	.nut{
+		text-align: center;
+		margin-top: 20px;
+	}
+	.iconsocial{
+		text-align: center;
+	}
+	.mtrenphai li.nav-item.iconmenu a.nav-link{
+		padding: 10px 5px;
+		border-bottom: 1px solid gray;
+	}
+}

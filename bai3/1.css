@@ -1,0 +1,57 @@
+*{
+	margin: 0px;
+	padding:0;
+}
+a.khoi1 {
+	display: block;
+	width: 400px;
+	height: 250px;
+	background-image: url(6.jpg);
+	background-position: center;
+	text-decoration: none;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.5s;
+
+}
+a.khoi1.k12{	
+	background-image: url(1.jpg);
+	height: 115px;
+	margin-bottom: 20px;
+}
+a.khoi1.k13{	
+	background-image: url(1.jpg);
+	height: 115px;
+}
+
+.noidungk1{
+	width: 70%
+	height:40%;
+}
+.noidungk1 img{
+	float: left;
+}
+.noidungk1 b{
+	display: block;
+	padding-top: 20px;
+	font-weight: lighter;
+	margin-left: 90px;
+}
+a.khoi1:hover {
+	opacity: 50%;
+	transition: 0.5s;
+}
+.to{
+    width: 815px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    }
+.phai{
+
+ margin-bottom: 9px;
+}

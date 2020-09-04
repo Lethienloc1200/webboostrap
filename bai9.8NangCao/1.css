@@ -1,0 +1,148 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.top{
+	will-change: 100%;
+	height: 100%;
+	background-image: url(images/bg-masthead.jpg);
+	background-size: cover;
+}
+/*phan tren de full man hinh*/
+
+.menutren{
+	background-color: transparent; /*trong suot*/
+	border-bottom: 1px solid gray;
+}
+.menutrenphai{
+	font-weight:bold;
+}
+.banner{
+	color: white;
+}
+.tdto{
+	padding-top:40%;
+	font-size: 45px;
+	position: relative; /*để làm gốc cho cái dưới*/
+ 	padding-bottom:30px; 
+ }
+.tdto:after{
+	content: '';/*noi dung la null*/
+	width: 100px;
+	height: 3px; /*để tạo dấu gạch giữa*/
+	background-color: orange;
+	display: block;
+	position: absolute;
+	left: 50%;
+	bottom:0;
+	margin-left: -50px; /*vì chiều rộng là 100px nên để một nữa là 50px*/
+}
+.tieude{
+	font-size: 17px;
+
+}
+.nut_action{
+	border-radius: 45px;
+
+}
+/*cais nayf laf treen di ddong*/
+@media(max-width: 570px){
+	.navbar{
+		background-color: black;
+	}
+	.menutrenphai li a{
+		text-align: center;
+		font-size: 16px;
+	}
+	.menutrenphai li a:hover{
+		background-color: violet;
+	}
+	.logo{
+		text-align: center;
+	}
+}
+/*cai nay la tren ipad*/
+@media(min-width: 577px)and(max-width: 768px){
+	/*xu lys vao*/
+}
+/*css cho noi dung 2*/
+.noidung2{
+background-color: #2a247094;;
+color: white;
+}
+.nut_action2{
+	background-color: #E0C3C3;
+	color: #544A4A;
+
+}
+.nut_action2:hover{
+	background-color:pink;
+}
+.tdto.tdto3 {
+    padding-top: 20%;
+}
+.noidung3 div .fa{
+	color: orange;
+
+}
+.sp{/*father*/
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.sp img{
+	width: 100%;
+}
+.sp .ten{
+	position: absolute;
+	z-index: 2;
+	top: 0px;
+	left: 0px;
+	transition: 0.4s;
+
+	width:100%;
+	height: 100%;
+	background-color: #ff000045;
+	text-align: center; 
+	color: white;
+	opacity: 0;
+}
+.goi{ /*gom danh mucva chi tiet*/
+	position: absolute;
+	height: 50px;
+	top: 50%;
+	margin-top: -25px;
+	text-align: center;
+	width: 100%;
+	font-size: 30px;
+
+}
+.danhmuc{
+	font-size: 20px;
+
+}
+.sp:hover .ten{
+	opacity: 1;
+
+}
+.noidung4 .col-sm-4{
+	padding: 0px;
+
+}
+.logo{
+	transition: 0.4s;
+}
+.logo.maucam{
+	color: orange;
+	font-size: 25px;
+}
+.navbar{
+	transition: 0.5s;
+}
+.navbar.nentrang{
+	background-color: #cbb1b18c;
+}
